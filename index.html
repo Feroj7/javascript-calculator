@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/366a291bd7.js" crossorigin="anonymous"></script>
     <!-- css  -->
     <link rel="stylesheet" href="style.css">
 
@@ -24,25 +27,25 @@
         <button value="7" onclick="seven()">7</button>
         <button value="8" onclick="eight()">8</button>
         <button value="9" onclick="nine()">9</button>
-        <button value="+" onclick="add()" class="operator">+</button>
+        <button value="+" onclick="add()" class="operator"><i class="fas fa-plus"></i></button>
       </div>
       <div class="row">
         <button value="4" onclick="four()">4</button>
         <button value="5" onclick="five()">5</button>
         <button value="6" onclick="six()">6</button>
-        <button value="-" onclick="sub()" class="operator">-</button>
+        <button value="-" onclick="sub()" class="operator"><i class="fas fa-minus"></i></button>
       </div>
       <div class="row">
         <button value="1" onclick="one()">1</button>
         <button value="2" onclick="two()">2</button>
         <button value="3" onclick="three()">3</button>
-        <button value="*" onclick="multiplication()" class="operator">*</button>
+        <button value="*" onclick="multiplication()" class="operator"><i class="fas fa-times"></i></button>
       </div>
       <div class="row">
-        <button class="operator" onclick="clr()">C</button>
+        <button class="operator c-btn" onclick="clr()">C</button>
         <button value="0" onclick="zero()">0</button>
-        <button value="/" class="operator" onclick="divide()">/</button>
-        <button value="=" class="operator" onclick="equal()">=</button>
+        <button value="/" class="operator" onclick="divide()"><i class="fas fa-divide"></i></button>
+        <button value="=" class="operator" onclick="equal()"><i class="fas fa-equals"></i></button>
       </div>
     </div>
 </div>

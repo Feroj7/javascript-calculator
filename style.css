@@ -63,6 +63,9 @@
     color: #fff;
     margin: 10px;
   }
+  .c-btn{
+    font-weight:bold;
+  }
   
   button:hover {
     cursor: pointer;
@@ -77,3 +80,4 @@
   }
   
   /* operator style end */
+
