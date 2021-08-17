@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- css  -->
+    <link rel="stylesheet" href="style.css">
+
+  
+</head>
+<body>
+    <!-- calculator -->
+  <div class="calculator">
+
+    <div>
+        <!-- display -->
+    <input type="text" class="display" placeholder="0" id="display" disabled>
+    <!-- keys -->
+    <div class="keys">
+      <!-- 4 rows of keys -->
+      <div class="row">
+        <button value="7" onclick="seven()">7</button>
+        <button value="8" onclick="eight()">8</button>
+        <button value="9" onclick="nine()">9</button>
+        <button value="+" onclick="add()" class="operator">+</button>
+      </div>
+      <div class="row">
+        <button value="4" onclick="four()">4</button>
+        <button value="5" onclick="five()">5</button>
+        <button value="6" onclick="six()">6</button>
+        <button value="-" onclick="sub()" class="operator">-</button>
+      </div>
+      <div class="row">
+        <button value="1" onclick="one()">1</button>
+        <button value="2" onclick="two()">2</button>
+        <button value="3" onclick="three()">3</button>
+        <button value="*" onclick="multiplication()" class="operator">*</button>
+      </div>
+      <div class="row">
+        <button class="operator" onclick="clr()">C</button>
+        <button value="0" onclick="zero()">0</button>
+        <button value="/" class="operator" onclick="divide()">/</button>
+        <button value="=" class="operator" onclick="equal()">=</button>
+      </div>
+    </div>
+</div>
+  
+  </div>
+  <!-- calculator body ends -->
+
+ <script src="js/main.js"></script>
+
+ 
+</body>
+</html>
